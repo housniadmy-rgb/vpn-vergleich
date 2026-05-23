@@ -15,8 +15,8 @@ export default function Impressum() {
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Angaben gemäß § 5 TMG</h2>
           <div className="text-gray-600 dark:text-gray-300 space-y-1">
             <p className="font-semibold text-gray-900 dark:text-white">VPNVergleich.de</p>
-            <p>Musterstraße 1</p>
-            <p>12345 Musterstadt</p>
+            <p>Berlinstr. 37</p>
+            <p>55411 Bingen am Rhein</p>
             <p>Deutschland</p>
           </div>
         </section>
@@ -24,7 +24,7 @@ export default function Impressum() {
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Kontakt</h2>
           <div className="text-gray-600 dark:text-gray-300 space-y-1">
-            <p>E-Mail: kontakt@vpnvergleich.de</p>
+            <p>E-Mail: housniadmy@yahoo.de</p>
           </div>
         </section>
 
