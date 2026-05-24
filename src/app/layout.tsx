@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Header } from "@/components/Header";
@@ -19,6 +20,9 @@ export const metadata: Metadata = {
     locale: "de_DE",
     siteName: "VPNVergleich.de",
   },
+  other: {
+    "google-adsense-account": "ca-pub-7676593353613357",
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" suppressHydrationWarning>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7676593353613357"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
       <body className={`${inter.className} min-h-screen bg-background`}>
         <Providers>
           <Header />
